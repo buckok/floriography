@@ -1,0 +1,145 @@
+
+button{
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    padding: zero;
+}
+
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-image: url("Florals-to-Cut/Backgrounds/home.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Libre Bodoni";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    border-style: double;
+    border-width: 15px;
+    border-color: #F2AE2E;
+    background-color: #FFFFDC; 
+    height: 50px;
+    padding: 5px;
+}
+
+.body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.definition, .history{
+    margin-top: 75px;
+    padding: 12px;
+    width: 18%;
+}
+
+.title{
+    width: 40%;
+    height: 25%;
+}
+
+
+.definition{
+    background-color: #FFFFDC;
+    border-style: double;
+    border-width: 15px;
+    border-color: #F2AE2E;
+}
+
+.history{
+    background-color: #FFFFDC;
+    border-style: double;
+    border-color:#F2AE2E;
+    border-width: 15px;
+}
+
+.color{
+  margin: auto;
+}
+
+.main-title{
+    padding: 10px;
+    background-color: #FFFFDC;
+    border-style: double;
+    border-color:#F2AE2E;
+    border-width: 15px;
+    text-align: center;
+}
+
+.home-image{
+    object-fit: cover;
+    overflow: hidden;
+    height: 25%;
+    width: 100%;
+    outline-style: double;
+    outline-width: 15px; 
+    outline-color: #0D1A26;
+}
+
+
+button{
+    font-family: inherit;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 40px;
+}
+
+#red-button:hover{
+    background-color: #BF3636;
+}
+
+#orange-button:hover{
+    background-color: #BF6545;
+}
+#yellow-button:hover{
+    background-color: #D9A404;
+}
+
+#blue-button:hover{
+    background-color: #80ADBF;
+  }
+  
+#purple-button:hover{
+    background-color: #734F63;
+  }
+
+#pink-button:hover{
+    background-color: #E08686;
+  }
+
+#white-button:hover{
+    background-color: #D9D7CC;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #ADBF9B;
+  }
