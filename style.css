@@ -1,0 +1,396 @@
+html{
+    background-image: url("images/Backgrounds/home.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    font-family: "Libre Bodoni";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    border-style: double;
+    border-width: 15px;
+    border-color: #F2AE2E;
+    background-color: #FFFFDC; 
+    height: 50px;
+    padding: 5px;
+}
+
+.home-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.definition, .history{
+    margin-top: 75px;
+    padding: 12px;
+    width: 18%;
+}
+
+.title{
+    width: 40%;
+    height: 25%;
+}
+
+
+.definition{
+    background-color: #FFFFDC;
+    border-style: double;
+    border-width: 15px;
+    border-color: #F2AE2E;
+}
+
+.history{
+    background-color: #FFFFDC;
+    border-style: double;
+    border-color:#F2AE2E;
+    border-width: 15px;
+}
+
+.color{
+  margin: auto;
+}
+
+.main-title{
+    padding: 10px;
+    background-color: #FFFFDC;
+    border-style: double;
+    border-color:#F2AE2E;
+    border-width: 15px;
+    text-align: center;
+}
+
+button{
+    font-family: inherit;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 40px;
+}
+
+#home-button:hover{
+    background-color: #6A8C5A;
+}
+
+#red-button:hover{
+    background-color: #BF3636;
+}
+
+#orange-button:hover{
+    background-color: #BF6545;
+}
+#yellow-button:hover{
+    background-color: #D9A404;
+}
+
+#blue-button:hover{
+    background-color: #80ADBF;
+  }
+  
+#purple-button:hover{
+    background-color: #734F63;
+  }
+
+#pink-button:hover{
+    background-color: #E08686;
+  }
+
+#white-button:hover{
+    background-color: #D9D7CC;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
+.home-footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #ADBF9B;
+  }
+
+.red-footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #BF3636;
+}
+
+.orange-footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #BF6545;
+}
+
+.yellow-footer{
+    margin-top: auto;
+    text-align: center;
+    background-color:#D9A404;
+}
+
+.blue-footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #80ADBF;
+}
+
+.purple-footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #734F63;
+}
+
+.pink-footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #E08686;
+}
+
+.white-footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #D9D7CC;
+}
+
+.caption{
+    background-color: #FFFFDC;
+    margin-top: 20px;
+    text-align: center;
+    font-size: small;
+    border-style: double;
+    border-color:#F2AE2E;
+    border-width: 15px;
+  }
+
+.sources{
+    background-color: #FFFFDC;
+    text-align: center;
+    font-size: x-small;
+    border-style: double;
+    border-color:#F2AE2E;
+    border-width: 15px;
+    width: 30%;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+button{
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    padding: zero;
+  }
+  
+.menu{
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      background-color: #FFFFDC; 
+      border-style: double;
+      border-width: 15px;
+      height: 50px;
+      padding: 5px;
+  }
+
+#home-menu{
+    border-color:#F2AE2E;
+}
+  
+#red-menu{
+    border-color: #73130A
+  }
+  
+#orange-menu{
+    border-color: #BF6545;
+  }
+  
+#yellow-menu{
+    border-color:#D9A404;
+}
+  
+#blue-menu{
+    border-color: #3F585C;
+}
+  
+#purple-menu{
+    border-color: #593F4E;
+}
+
+#pink-menu{
+    border-color: #BF5E5E;
+}
+  
+  #white-menu{
+    border-color: #AEBF8A;
+}
+  
+.flower-list{
+      list-style: none;
+}
+  
+.color{
+      margin: auto;
+      background-color: #FFFFDC;
+}
+  
+.flower-info{
+      display: flex;
+      padding-right: 300px;
+}
+  
+.flower-card p{
+      display: none;
+}
+  
+.flower-card.expanded p{
+      display: block;
+}
+  
+.flower-card img{
+      display: none;
+}
+  
+.flower-card.expanded img{
+      display: block;
+}
+  
+.flower-card{
+      display: flex;
+      padding: 12px;
+      margin-top: 20px;
+      background-color: #FFFFDC;
+      border-style: double;
+      border-width: 15px;
+      width: 68vw;
+}
+  
+.flower-card:hover h2{
+      text-decoration: underline;
+      color: #6A8C5A;
+}
+  
+.flower-card.expanded{
+      display: flex;
+      padding: 12px;
+      margin-top: 20px;
+      background-color: #FFFFDC;
+      border-style: double;
+      border-width: 15px;
+      width: 68vw;
+      overflow: hidden;
+}
+  
+#red-cards li{
+      border-color:#73130A;
+}
+  
+#orange-cards li{
+      border-color: #BF6545;
+}
+  
+#yellow-cards li{
+      border-color:#D9A404;
+}
+  
+#pink-cards li{
+      border-color: #BF5E5E;
+}
+  
+#blue-cards li{
+      border-color:#3F585C;
+}
+  
+#purple-cards li{
+      border-color: #593F4E;
+}
+    
+#white-cards li{
+      border-color: #AEBF8A;
+}
+  
+.flower-card p {
+      padding-left:15px;   
+}
+  
+.flower-text {
+  padding-right: 20px;
+}
+  
+img{
+    border-radius: 40%; 
+    margin: auto;  
+}
+
+.home-image{
+    object-fit: cover;
+    overflow: hidden;
+    height: 25%;
+    width: 100%;
+    outline-style: double;
+    outline-width: 15px; 
+    outline-color: #0D1A26;
+    border-radius: 0%;
+}
+  
+.red-body{
+    background: url(images/Backgrounds/red.jpeg);
+}
+  
+.orange-body{
+    background: url(images/Backgrounds/orange.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+.yellow-body{
+    background: url(images/Backgrounds/yellow.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+.blue-body{
+    background: url(images/Backgrounds/blue.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+.purple-body{
+    background: url(images/Backgrounds/purple.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+.pink-body{
+    background: url(images/Backgrounds/pink.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+.white-body{
+    background:url(images/Backgrounds/white.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+footer{
+    margin-top: auto;
+    text-align: center;
+}
