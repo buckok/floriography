@@ -77,6 +77,7 @@ a{
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 40px;
+    color: black;
 }
 
 #home-button:hover{
@@ -108,10 +109,6 @@ a{
 
 #white-button:hover{
     background-color: #D9D7CC;
-}
-
-a{
-    color: black;
 }
 
 a:link{
